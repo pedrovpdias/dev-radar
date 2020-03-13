@@ -1,0 +1,83 @@
+li.dev-item {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+li.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.dev-item header img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+    margin-left: 10px;
+}
+
+.user-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+li.dev-item p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+li.dev-item a {
+    color: #8e4dff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+li.dev-item a:hover {
+    color: #5a2ea6;
+}
+
+li.dev-item .user-delete {
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    text-justify: center;
+    vertical-align: middle;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: auto;
+    margin-bottom: auto;  
+}
+
+.user-delete button[type="submit"] {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    color: #aaa;
+    width: 20px;
+    padding: 3px;
+    align-items: center;
+    font-size: 10px;
+    transition: 0.5s;
+}
+
+.user-delete button[type="submit"]:hover {
+    color: #888;
+    background: #fff;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+    border-color: #ccc;
+}
